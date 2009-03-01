@@ -1,6 +1,7 @@
 * {
-font-family:Helvetica,"Franklin Gothic Medium",Geneva,Arial,sans-serif;
-}
+	font-family:Helvetica,"Franklin Gothic Medium",Geneva,Arial,sans-serif;
+	text-align: left;
+	}
 body {
 margin:0;
 padding:0;
@@ -14,9 +15,9 @@ margin-left:30px;
 width:902px;
 }
 #featured {
-background:transparent url(../images/center_bkgrd.jpg) no-repeat scroll 0 0;
-height:291px;
-overflow:hidden;
+	background:transparent url(../images/main.jpg) no-repeat scroll 0 0;
+	height:291px;
+	overflow:hidden;
 }
 #featuredcontent {
 float:right;
@@ -26,55 +27,7 @@ right:18px;
 text-align:left;
 width:220px;
 }
-#understage {
-display:block;
-float:left;
-margin-top:20px;
-width:100%;
-}
-#understage {
-margin-top:25px !important;
-padding-top:10px;
-}
-#underbox {
--x-system-font:none;
-border:1px solid #CFCFCF;
-font-family:Helvetica,"Franklin Gothic Medium",Geneva,Arial,sans-serif;
-color:#444444;
-float:left;
-font-size:12px;
-font-size-adjust:none;
-font-stretch:normal;
-font-style:normal;
-font-variant:normal;
-font-weight:normal;
-height:105px;
-line-height:18px;
-margin-left:3px;
-margin-right:3px;
-padding-right:3px;
-padding-top:12px;
-width:438px;
-}
-#underbox img {
-float:left;
-position:relative;
-top:-7px;
-}
-#undertitle {
-padding:8px 0 3px 10px;
--x-system-font:none;
-color:#333333;
-font-size:14px;
-font-family:"Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
-font-weight: bold;
-font-size-adjust:none;
-font-stretch:normal;
-font-style:normal;
-font-variant:normal;
-font-weight:normal;
-line-height:19px;
-}
+
 #PageFooter {
 clear:both;
 color:#777777;
@@ -143,9 +96,9 @@ position:relative;
 width:922px;
 }
 #PageHeader {
-height:110px;
-margin-left:30px;
-width:902px;
+	height:93px;
+	margin-left:30px;
+	width:902px;
 }
 #navhead {
 background:transparent url(../images/top_banner.jpg) no-repeat scroll 0 0;
@@ -339,7 +292,7 @@ list-style-type:none;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	color: #900;
-	padding-top: 25px;
+	padding-top: 30px;
 }
 
 #PageFooter #PageFooterContents {
