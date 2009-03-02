@@ -15,9 +15,13 @@ margin-left:30px;
 width:902px;
 }
 #featured {
-	background:transparent url(../images/main.jpg) no-repeat scroll 0 0;
 	height:291px;
 	overflow:hidden;
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(../images/binary.bmp);
+	background-repeat: no-repeat;
+	background-position: 0 0;
 }
 #featuredcontent {
 float:right;

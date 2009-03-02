@@ -155,14 +155,15 @@ overflow:hidden;
 width:681px;
 }
 .lefttbox {
-float:left;
-padding: 0 5px 0 0;
-width:175px;
+	float:left;
+	padding: 0 0px 0 0;
+	width:175px;
+	height: 126px;
 }
 .righttbox {
 	padding: 0 0 0 0px;
 	float:left;
-	width:70%;
+	width:75%;
 	font-family: Helvetica,"Franklin Gothic Medium",Geneva,Arial,sans-serif;
 	font-size:12px;
 	line-height:18px;
@@ -223,6 +224,7 @@ ul.project-list li {
 	overflow:hidden;
 	padding:15px px;
 	width:100%;
+	vertical-align: top;
 }
 .resumeHeaders {
 color:#333333;
@@ -262,4 +264,11 @@ margin:5px 40px 5px 0;
 }
 #PageFooter ul li a {
 color:#777777;
+}
+.projtitle {
+	font-weight: bold;
+}
+.prjIcon {
+	height: 126px;
+	width: 175px;
 }
