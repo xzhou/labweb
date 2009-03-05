@@ -1,6 +1,7 @@
 * {
 	font-family:Helvetica,"Franklin Gothic Medium",Geneva,Arial,sans-serif;
 	text-align: left;
+	margin-left: 0px;
 	}
 body {
 margin:0;
@@ -158,6 +159,7 @@ text-decoration:none;
 	margin:0 auto;
 	position:relative;
 	width:902px;
+	margin-left: 0px;
 }
 #PageFooter #PageFooterContents {
 border-top:1px dashed #AAAAAA;
@@ -304,4 +306,8 @@ border-top:1px dotted #AAAAAA;
 margin:0 0 0 2px;
 padding:5px 30px 10px 0;
 width:900px;
+}
+.mainBody {
+	width: 902px;
+	margin-left: 30px;
 }
