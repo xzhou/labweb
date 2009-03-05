@@ -8,6 +8,7 @@
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 <link href="../css/home.css" rel="stylesheet" type="text/css" />
+<link href="../css/projectDetails.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 <div id="BodyWrapper">
@@ -22,18 +23,37 @@
 			</ul>
 		</div>
 	</div>
-	<div class="mainBody"> <!-- TemplateBeginEditable name="body" -->
-	body
-	<!-- TemplateEndEditable --></div>
-	<div id="homecontainer">
-		<div id="PageFooter">
-			<ul>
-				<li><a href="../index.htm">home</a></li>
-				<li><a href="../research.html">Research</a></li>
-				<li><a href="../members.html">Members</a></li>
-				<li><a href="../about.html">about</a></li>
-			</ul>
+	
+	<div class="mainBody"> 
+		<div class="projectPic">
+			<!-- TemplateBeginEditable name="ProjectPic" -->
+				ProjectPic
+			<!-- TemplateEndEditable -->
 		</div>
+		<div class="projectDesc">
+			<!-- TemplateBeginEditable name="Project Abstract" -->
+				Project Abstract
+			<!-- TemplateEndEditable -->
+		</div>
+		
+		<div class="videoDesc">
+			<!-- TemplateBeginEditable name="VideoDesc" -->
+				VideoDesc
+				this is the video
+			<!-- TemplateEndEditable -->
+		</div>
+		<div class="videoBox"><!-- TemplateBeginEditable name="video" -->video<!-- TemplateEndEditable -->
+			
+		</div>
+	</div>
+	
+	<div id="PageFooter">
+		<ul>
+			<li><a href="../index.htm">home</a></li>
+			<li><a href="../research.html">Research</a></li>
+			<li><a href="../members.html">Members</a></li>
+			<li><a href="../about.html">about</a></li>
+		</ul>
 	</div>
 </div>
 </body>
