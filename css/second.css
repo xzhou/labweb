@@ -120,9 +120,9 @@ color:#298ACE;
 text-decoration:underline;
 }
 .ContentWrapper {
-border:0 solid #000000;
-padding:40px 0 0 30px;
-width:902px;
+	border:0 solid #000000;
+	padding:10px 0 0 30px;
+	width:902px;
 }
 #Body-home #ContentWrapper {
 padding-top:41px;
