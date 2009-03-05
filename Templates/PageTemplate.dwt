@@ -1,0 +1,40 @@
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>Untitled Document</title>
+    <!-- TemplateEndEditable -->
+    <!-- TemplateBeginEditable name="head" -->
+    <!-- TemplateEndEditable -->
+    <link href="../css/home.css" rel="stylesheet" type="text/css" />
+    </head>
+    
+    <body>
+      <div id="BodyWrapper">  
+		  	<div id="PageHeader">
+				<p class="myTitle">System Security Lab, School of Informatics, Indiana University
+				</p>
+				<div id="navhead">
+					  <ul id="Primary-Nav">
+					  <li><a href="index.htm">home</a></li>
+					  <li><a href="research.html">Research</a></li>
+					  <li><a href="member.html">Members</a></li>
+					  <li><a href="about.html">about</a></li>
+					  </ul>
+				</div>
+      		</div> <!--/PageHeader-->
+			<div class="ContentWrapper">
+			<!-- TemplateBeginEditable name="body" -->body<!-- TemplateEndEditable -->
+			</div>
+			<div id="PageFooter">
+				<ul>
+					<li><a href="index.htm">home</a></li>
+					<li><a href="research.html">Research</a></li>
+					<li><a href="member.html">Members</a></li>
+					<li><a href="about.html">about</a></li>
+				</ul>
+			</div> <!--/PageFooter-->
+      </div> 
+    </body>
+    </html>
