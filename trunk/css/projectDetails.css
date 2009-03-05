@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.projectPic {
+	height: 300px;
+	width: 400px;
+	float: left;
+}
+.projectDesc {
+	width: 500px;
+	height: 300px;
+	float: right;
+}
+.videoDesc {
+	float: left;
+	height: 300px;
+	width: 400px;
+	clear: both;
+}
+.videoBox {
+	height: 300px;
+	width: 500px;
+	float: right;
+	clear: right;
+}
+.videoBigBox {
+	height: 400px;
+	width: 902px;
+}
