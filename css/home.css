@@ -2,6 +2,7 @@
 	font-family:Helvetica,"Franklin Gothic Medium",Geneva,Arial,sans-serif;
 	text-align: left;
 	margin-left: 0px;
+	margin-right: 15px;
 	}
 body {
 margin:0;
@@ -203,8 +204,8 @@ font-weight:normal;
 line-height:16px;
 }
 a {
-color:#1187B8;
-text-decoration:none;
+	color:#900;
+	text-decoration:none;
 }
 a:hover {
 text-decoration:underline;
@@ -214,8 +215,8 @@ color:#1187B8;
 text-decoration:none;
 }
 a:active {
-color:#1187B8;
-text-decoration:none;
+	color:#900;
+	text-decoration:none;
 }
 a img {
 border:0 none;
@@ -316,7 +317,30 @@ width:900px;
 }
 .memberList {
 	margin: 5px;
+	list-style-type: none;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	height: 122px;
 }
 .memberClass {
 	font-size: 16px;
+}
+.peoplePhoto {
+	height: 120px;
+	width: 120px;
+	float: left;
+}
+.peopleInfo {
+	width: 685px;
+	clear: none;
+	float: right;
+	height: 120px;
+}
+.peopleType {
+	width: 900px;
+	float: none;
+}
+.photo {
+	height: 120px;
+	width: 120px;
 }
