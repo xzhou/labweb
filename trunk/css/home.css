@@ -105,16 +105,21 @@ width:922px;
 	height:93px;
 	margin-left:30px;
 	width:902px;
+	margin-top: 20px;
 }
 #navhead {
-background:transparent url(../images/top_banner.jpg) no-repeat scroll 0 0;
-/*border:1px solid #CFCFCF;
+	/*border:1px solid #CFCFCF;
 background: #666666;*/
 float:left;
-height:26px;
-margin-top:3px;
-padding:0;
-width:900px;
+	height:26px;
+	margin-top:30px;
+	padding:0;
+	width:550px;
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(../images/shapeimage_1.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
 }
 #PageHeader h1 {
 margin:0;
@@ -139,7 +144,7 @@ height:29px;
 margin:0;
 }
 #PageHeader ul#Primary-Nav li a {
-	color:#666666;
+	color:#FFF;
 	display:block;
 	float:left;
 	font-size:12px;
@@ -154,7 +159,7 @@ text-decoration:none;
 }
 #PageFooter {
 	clear:both;
-	color:#777777;
+	color:#FFF;
 	font-size:11px;
 	height:16px;
 	margin:0 auto;
@@ -185,23 +190,24 @@ display:inline;
 margin:5px 10px 5px 0;
 }
 #PageFooter ul li a {
-	color:#777777;
+	color:#333333;
 	border-top-style: none;
 	border-right-style: none;
 	border-bottom-style: none;
 	border-left-style: none;
 }
 body {
--x-system-font:none;
-color:#444444;
-font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
-font-size:12px;
-font-size-adjust:none;
-font-stretch:normal;
-font-style:normal;
-font-variant:normal;
-font-weight:normal;
-line-height:16px;
+	-x-system-font:none;
+	color:#FFF;
+	font-family:"Lucida Grande","Lucida Sans Unicode",Arial,Verdana,sans-serif;
+	font-size:12px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:16px;
+	background-color: #999;
 }
 a {
 	color:#900;
@@ -254,8 +260,9 @@ margin:0 0 9px;
 padding:0;
 }
 p {
-margin:0 0 12px;
-padding:0 5px 0 0;
+	margin:0 0 12px;
+	padding:0 5px 0 0;
+	color: #FFF;
 }
 * html .cf {
 height:1%;
@@ -297,10 +304,10 @@ display:inline;
 list-style-type:none;
 }.myTitle {
 	font-size: 24px;
-	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	color: #900;
-	padding-top: 30px;
+	padding-top: 0px;
 }
 
 #PageFooter #PageFooterContents {
@@ -344,3 +351,19 @@ width:900px;
 	height: 120px;
 	width: 120px;
 }
+.schoolTitle {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+.titleLeftBox {
+	width: 300px;
+	float: left;
+}
+.leftColumn {
+	width: 200px;
+}
+.rightColumn {
+	width: 700px;
+}
+
