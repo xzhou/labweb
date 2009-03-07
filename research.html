@@ -9,11 +9,19 @@
 <link href="css/second.css" rel="stylesheet" type="text/css" />
 <!-- InstanceEndEditable -->
 <link href="css/home.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+a:hover{
+	color:#F00;
+}
+</style>
 </head>
 <body>
 <div id="BodyWrapper">
 	<div id="PageHeader">
-		<p class="myTitle">System Security Lab, School of Informatics, Indiana University</p>
+		<div class="titleLeftBox">
+			<p class="schoolTitle"> School of Informatics, Indiana University </p>
+			<p class="myTitle"> System Security Lab </p>
+		</div>
 		<div id="navhead">
 			<ul id="Primary-Nav">
 				<li><a href="index.htm">Home</a></li>
@@ -25,128 +33,29 @@
 	</div>
 	<div class="mainBody"> <!-- InstanceBeginEditable name="body" -->
 	<div class="ContentWrapper">
-					<table width="100%" border="0">
-						<tr>
-							<td colspan="2"><strong>Automatic Program Analysis</strong>
-							<hr size="2" /></td>
-							<!--<td width="7%">&nbsp;</td>-->
-						</tr>
-						<tr>
-							<td width="6%">&nbsp;</td>
-							<td width="94%" align="left" valign="top">
-								<!--a group of project-->
-
-								<div class="lefttbox"><a href="projects/project1/index.html"><img src="images/default.jpg" class="prjIcon" /></a></div>
-								<div class="projtitle"><span class="projtitle">Towards Automatic Reverse Engineering of Security Configurations</span><br />
-								</div>
-								<div>The specifications of an application's security configuration are crucial for understanding its security policies, which can be very helpful in security-related contexts such as misconfiguration detection. Such specifications, however, are often ill-documented, or even close because of the increasing use of graphic user interfaces to set program options. In this paper, we propose ConfigRE, a new technique for automatic reverse engineering of an application's access-control configurations. Our approach first partitions a configuration input into fields, and then identifies the semantic relations among these fields and the roles they play in enforcing an access control policy. Based upon such knowledge, ConfigRE automatically generates a specification language to describe the syntactic relations of these fields. The language can be converted into a scanner using standard parser generators for scanning configuration files and discovering the security policies specified in an application. We implemented ConfigRE in our research and evaluated it against real applications. The experiment results demonstrate the efficacy of our approach.</div>
-							</td>
-						</tr>
-						<tr>
-							<td>&nbsp;</td>
-							<td>
-								<div class="lefttbox"><img src="projects/panalyst/images/bug.bmp" width="152" height="100" class="prjIcon" /></div>
-								<div class="righttbox"><span class="projtitle">Panalyst: Privacy-Aware Remote Error Analysis on Commodity Software</span><br /></div>
-								<div>Remote error analysis aims at timely detection and remedy of software vulnerabilities through analyzing runtime errors that occur on the client. This objective can only be achieved by offering users effective protection of their private information and minimizing the performance impact of the analysis on their systems without undermining the amount of information the server can access for understanding errors. To this end, we propose in the paper a new technique for privacy-aware remote analysis, called Panalyst. Panalyst includes a client component and a server component. Once a runtime exception happens to an application, Panalyst client sends the server an initial error report that includes only public information regarding the error, such as the length of the packet that triggers the exception. Using an input built from the report, Panalyst server performs a taint analysis and symbolic execution on the application, and adjusts the input by querying the client about the information upon which the execution of the application depends. The client agrees to answer only when the reply does not give away too much user information. In this way, an input that reproduces the error can be gradually built on the server under the client's consent. Our experimental study of this technique demonstrates that it exposes a very small amount of user information, introduces negligible overheads to the client and enables the server to effectively analyze an error.</div>
-
-							</td>
-						</tr>
-						<tr>
-						    <td>&nbsp;</td>
-						    <td>
-                            	<div class="lefttbox"><img src="images/default.jpg" class="prjIcon" /></div>
-								<div class="projtitle">AGIS: Automatic Generation of Infection Signatures<br /></div>
-                                <div>An important yet largely uncharted problem in malware defense is how to automate generation of infection signatures for detecting compromised systems, i.e., signatures that characterize the behavior of malware residing on a system. To this end, we develop AGIS, the first host-based technique that detects infections by novel malware and automatically generates an infection signature of the malware. AGIS monitors the runtime behavior of suspicious code according to a set of security policies to detect a previously undetected infection, and then identifies its characteristic behavior in terms of system or API calls. AGIS then statically analyzes the corresponding executables to extract the instructions important to the infection's mission. These instructions can be used to build a template for a static-analysis-based scanner, or a regular-expression signature for legacy scanners. AGIS also detects encrypted malware and generates a signature from its plaintext decryption loop. We implemented AGIS on Windows XP and evaluated it against real-life malware, including keyloggers, mass-mailing worms, and a well-known mutation engine. The experimental results demonstrate the effectiveness of our technique in detecting new infections and generating high-quality signatures.</div>
-                            </td>
-					    </tr>
-					</table>
-
-
-
-					<table width="100%" border="0">
-						<tr>
-							<td colspan="2">
-								<div class="categoryTitle"><strong>DoS</strong><strong> Containment</strong>&nbsp; </div>
-								<hr />
-							</td>
-							<!--<td width="7%">&nbsp;</td>-->
-						</tr>
-						<tr>
-							<td width="6%">&nbsp;</td>
-							<td width="94%">
-								<!--a group of project-->
-								<ul class="project-list">
-									<li>
-									<div class="lefttbox"><img src="images/default.jpg" class="prjIcon" /></div></p>
-										
-									</li>
-								</ul>
-							</td>
-						</tr>
-							<tr>
-								<td>&nbsp;</td>
-								<td>
-									<ul class="project-list">
-										<li>
-										<div class="lefttbox"><img src="images/default.jpg" class="prjIcon" /></div></p>
-											<div class="righttbox"><span class="projtitle">Project 2</span><br />
-											</div>
-										</li>
-									</ul>
-								</td>
-							</tr>
-					</table>
-
-						<table width="100%" border="0">
-							<tr>
-								<td colspan="2">
-									<div class="categoryTitle">
-										<!--[endif]-->
-									<strong>Incentive Engineering</strong></div>
-										<hr />
-								</td>
-									<!--<td width="7%">&nbsp;</td>-->
-							</tr>
-								<tr>
-									<td width="6%">&nbsp;</td>
-									<td width="94%">
-										<!--a group of project-->
-										<ul class="project-list">
-											<li>
-											<div class="lefttbox"><img src="images/default.jpg" class="prjIcon" /></div></p>
-												<div class="righttbox">
-													<span class="projtitle">Project 1</span><br />
-												</div>
-											</li>
-										</ul>
-									</td>
-							</tr>
-									<tr>
-										<td>&nbsp;</td>
-										<td>
-											<ul class="project-list">
-												<li>
-												<div class="lefttbox"><img src="images/default.jpg" class="prjIcon" /></div></p>
-													<div class="righttbox"><span class="projtitle">Project 2</span><br />
-													</div>
-												</li>
-											</ul>
-										</td>
-									</tr>
-					</table>
-								<!--Add more category-->
-</div><!--ContentWrapper-->
+		<table cellspacing="0" cellpadding="0" border="0">
+			<tbody>
+				<tr>
+					<td class="leftColumn">
+						<hr />
+							Automatic Program Analysis
+						<hr />
+							DoS Containment
+						<hr />
+							Incentive Engineering
+						<hr />
+							Other
+						<hr  />
+					</td>
+					<td class="rightColumn">project list</td>
+				</tr>
+			</tbody>
+		</table>
+	</div><!--ContentWrapper-->
 	<!-- InstanceEndEditable --></div>
-
 	<div id="PageFooter">
-		<ul>
-			<li><a href="index.htm">Home</a></li>
-			<li><a href="research.html">Research</a></li>
-			<li><a href="members.html">People</a></li>
-			<li><a href="about.html">About</a></li>
-		</ul>
+		Copyright@System Security Lab, School of Informatics, Indiana University
 	</div>
-
 </div>
 </body>
 <!-- InstanceEnd --></html>
