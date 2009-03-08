@@ -214,7 +214,7 @@ a {
 	text-decoration:none;
 }
 a:hover {
-	color:#933
+	color:#933;
 	text-decoration:underline;
 }
 a:visited {
@@ -230,7 +230,7 @@ a img {
 }
 ul {
 	margin:0;
-	padding-left:25px;
+	padding-left:0px;
 	font-size: 16px;
 }
 strong {
@@ -242,10 +242,10 @@ form {
 margin:0;
 }
 hr {
-background-color:#DDDDDD;
-border:0 none;
-color:#DDDDDD;
-height:1px;
+	background-color:#DDDDDD;
+	border:0 none;
+	color:#CCC;
+	height:1px;
 }
 hr.thick {
 background-color:#DDDDDD;
@@ -332,6 +332,8 @@ width:900px;
 }
 .memberClass {
 	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
 }
 .peoplePhoto {
 	height: 120px;
@@ -347,6 +349,7 @@ width:900px;
 .peopleType {
 	width: 900px;
 	float: none;
+	margin-bottom: 10px;
 }
 .photo {
 	height: 120px;
