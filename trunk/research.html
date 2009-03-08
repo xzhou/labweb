@@ -10,9 +10,6 @@
 <!-- InstanceEndEditable -->
 <link href="css/home.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
-a:hover{
-	color:#F00;
-}
 </style>
 </head>
 <body>
@@ -27,7 +24,7 @@ a:hover{
 				<li><a href="index.htm">Home</a></li>
 				<li><a href="research.html">Research</a></li>
 				<li><a href="members.html">People</a></li>
-				<li><a href="about.html">About</a></li>
+				<li><a href="about.html">Contacts</a></li>
 			</ul>
 		</div>
 	</div>
@@ -57,8 +54,19 @@ a:hover{
 								<p>
 									In biology, a vaccine is a weakened strain of a virus or bac- terium that is intentionally injected into the body for the purpose of stimulating antibody 								production. Inspired by this idea, we propose a packet vaccine mechanism that ran- domizes address-like strings in packet payloads to carry out fast exploit detection, vulnerability diagnosis and signature generation. An exploit with a randomized jump address be- haves like a vaccine: it will likely cause an exception in a vulnerable program's process when attempting to hijack the control °ow, and thereby expose itself. Taking that exploit as a template, our signature generator creates a set of new vaccines to probe the program, in an attempt to uncover the necessary conditions for the exploit to happen. A signa- ture is built upon these conditions to shield the underlying vulnerability from further attacks. In this way, packet vac- cine detects and ˉlters exploits in a black-box fashion, i.e., avoiding the expense of tracking the program's execution °ow. We present the design of the packet vaccine mecha- nism and an example of its application. We also describe our proof-of-concept implementation and the evaluation of our technique using real exploits.
 								</p>
+								<a href="projects/vaccin/PV-CCS.pdf">
+									<img src="images/downloadPDF.gif" width="109" height="19" alt="pdf" /> 
+								</a>
+								<a href="projects/vaccin/PV-CCS.pdf">
+									<img src="images/downloadppt.gif" width="109" height="19" />
+								</a>
 							<h3>AGIS</h3>
 							<p>An important yet largely uncharted problem in malware defense is how to automate generation of infection signatures for detecting compromised systems, i.e., signatures that characterize the behavior of malware residing on a system. To this end, we develop AGIS, the first host-based technique that detects infections by novel malware and automatically generates an infection signature of the malware. AGIS monitors the runtime behavior of suspicious code according to a set of security policies to detect a previously undetected infection, and then identifies its characteristic behavior in terms of system or API calls. AGIS then statically analyzes the corresponding executables to extract the instructions important to the infection’s mission. These instructions can be used to build a template for a static-analysis-based scanner, or a regular-expression signature for legacy scanners. AGIS also detects encrypted malware and generates a signature from its plaintext decryption loop. We implemented AGIS on Windows XP and evaluated it against real-life malware, including keyloggers, mass-mailing worms, and a well-known mutation engine. The experimental results demonstrate the effectiveness of our technique in detecting new infections and generating high-quality signatures.</p>
+							<a href="projects/vaccin/PV-CCS.pdf">
+									<img src="images/downloadPDF.gif" width="109" height="19" alt="pdf" /> 
+							</a>
+							
+							
 							<h3>SpyShield</h3>
 							<p>Spyware infections are becoming extremely pervasive, posing a grave threat to Internet users’ privacy. Control of such an epidemic is increasingly difficult for the existing defense mechanisms, which in many cases rely on detection alone. In this paper, we propose SpyShield, a new containment technique, to add another layer of defense against spyware. Our technique can automatically block the visions of untrusted programs in the presence of sensitive information, which preserves users’ privacy even after spyware has managed to evade detection. It also enables users to avoid the risks of using free software which could be bundled with surveillance code. As a first step, our design of SpyShield offers general protection against spy add-ons, an important type of spyware. This is achieved through enforcing a set of security policies to the channels an add-on can use to monitor its host application, such as COM interfaces and shared memory, so as to block unauthorized leakage of sensitive information.We prototyped SpyShield under Windows XP to protect Internet Explorer and also evaluated it using real plug-ins. Our experimental study shows that the technique can effectively disrupt spyware surveillance in accordance with security policies and introduce only a small overhead.</p>
 							<h3>PRECIP</h3>
