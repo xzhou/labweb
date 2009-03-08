@@ -214,18 +214,19 @@ a {
 	text-decoration:none;
 }
 a:hover {
-text-decoration:underline;
+	color:#933
+	text-decoration:underline;
 }
 a:visited {
-color:#1187B8;
-text-decoration:none;
+	color:#CCC;
+	text-decoration:none;
 }
 a:active {
 	color:#900;
 	text-decoration:none;
 }
 a img {
-border:0 none;
+	border:0 none;
 }
 ul {
 	margin:0;
