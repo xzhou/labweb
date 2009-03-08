@@ -102,7 +102,7 @@ position:relative;
 width:922px;
 }
 #PageHeader {
-	height:93px;
+	height:90px;
 	margin-left:30px;
 	width:902px;
 	margin-top: 20px;
@@ -207,7 +207,7 @@ body {
 	font-variant:normal;
 	font-weight:normal;
 	line-height:16px;
-	background-color: #999;
+	background-color: #333333;
 }
 a {
 	color:#900;
@@ -362,8 +362,19 @@ width:900px;
 }
 .leftColumn {
 	width: 200px;
+	margin-right: 10px;
 }
 .rightColumn {
 	width: 700px;
 }
 
+.projectType2 {
+
+}
+#BodyWrapper .mainBody .ContentWrapper table tbody tr .rightColumn .projectType2 h2 {
+	border-bottom-width: 2px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+}
