@@ -21,7 +21,7 @@ width:902px;
 	overflow:hidden;
 	background-attachment: scroll;
 	background-color: transparent;
-	background-image: url(../images/binaryanalysis.jpg);
+	background-image: url(../images/SSL.png);
 	background-repeat: no-repeat;
 	background-position: 0 0;
 }
@@ -207,7 +207,7 @@ body {
 	font-variant:normal;
 	font-weight:normal;
 	line-height:16px;
-	background-color: #333333;
+	background-color: #000;
 }
 a {
 	color:#900;
